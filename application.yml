@@ -1,0 +1,15 @@
+spring:
+    profiles:
+        active:
+        - dev
+---
+spring:
+    profiles:dev
+    applicatioin:
+        name:microservicecloud-config-atguigu-dev
+---
+spring:
+    profiles:test
+    applicatioin:
+        name:microservicecloud-config-atguigu-test
+#请保存为uft-8格式
